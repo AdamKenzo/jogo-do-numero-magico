@@ -2,7 +2,7 @@
 let listaDeNumerosSorteados = [];
 let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
-console.log(numeroSecreto);
+
 let tentativas = 1;
 
 
