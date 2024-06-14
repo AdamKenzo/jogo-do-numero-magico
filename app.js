@@ -38,7 +38,12 @@ function verificarChute() {
         let mensagemTentativa = `Você descobriu o número mágico com ${tentativas} ${palavraTetativa}!`;
         exibirTextoNaTela('p', mensagemTentativa);
         document.getElementById('reiniciar').removeAttribute('disabled');
-    } else {
+    } else if ((chute == 0) || (chute > numeroLimite) || (chute < 0)){
+        exibirTextoNaTela('p', 'Por favor, digite um número válido');
+        console.log("-----------------------------------------------------");
+        console.log("Homenagem ao Will, que deu ideia dessa funcionalidade");
+        console.log("-----------------------------------------------------");
+    }else {
         if (chute > numeroSecreto) {
             exibirTextoNaTela('p', 'O número mágico é menor');
         } else {
