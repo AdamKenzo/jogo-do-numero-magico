@@ -26,7 +26,7 @@
 ### Lógica de programação: explore funções e listas: [https://cursos.alura.com.br/certificate/adamkisa/logica-programacao-funcoes-listas]
 
 
-# Créditos do footer do readme: [@ambosdev](https://github.com/ambosdev)
+## Créditos do footer, readme: [@ambosdev](https://github.com/ambosdev)
 ![Imagem](./img/python_caldeira.png)
 ###### Repositório criado para um dos projetos realizados através do programa sem fins lucrativos do [@Instituto Caldeira](https://www.instagram.com/institutocaldeira) na trilha de Python!
 ### Conteúdo didático disponibilizado no programa:
