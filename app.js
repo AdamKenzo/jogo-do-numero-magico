@@ -5,16 +5,6 @@ let numeroSecreto = gerarNumeroAleatorio();
 
 let tentativas = 1;
 
-
-/*
-let titulo = document.querySelector('h1');
-titulo.innerHTML = 'Jogo do número secreto';
-
-let paragrafo = document.querySelector('p');
-paragrafo.innerHTML = 'Escolha um número entre 1 e 10';
-*/
-
-
 exibirMensagemInicial();
 // usando function para evitar a repetição de código
 function exibirTextoNaTela(tag, texto) {
@@ -24,7 +14,8 @@ function exibirTextoNaTela(tag, texto) {
 }
 
 function exibirMensagemInicial() {
-    exibirTextoNaTela('p', 'Escolha um número mágico entre 1 e 10');
+    let textoInicialNumeroLimete = `Escolha um número mágico entre 1 e ${numeroLimite}`
+    exibirTextoNaTela('p', textoInicialNumeroLimete);
     exibirTextoNaTela('h1', 'Jogo do número mágico');
 }
 
