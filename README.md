@@ -8,7 +8,7 @@
 
 * CSS
 
-* Python
+* Javascript
 
 ## Feito por:
 
